@@ -1,8 +1,8 @@
-49a9616b5da6383f603b2a87587e1ecc *DESCRIPTION
+d3afb5e4cc1e4079138f0b0d7313079f *DESCRIPTION
 2b0e2cf4f34d2d304e7b53c27ca9cfd0 *NAMESPACE
 df14ab2bdaf247c51c931312e5260fd6 *R/datamsaeRB.R
-11288f8ec82d37a1ad3b427b6d2b4e9e *R/est_msaeRB.R
-afa84f69226baf9a2e62f10674c62050 *R/est_saeRB.R
+c1f6a0311951b7fe968fa98ea9e6f81f *R/est_msaeRB.R
+8089d96e681a68da464d4f2883c7b0b6 *R/est_saeRB.R
 c190a37ae919da2c07fb1f526c3cbaf2 *R/mse_msaeRB.R
 a5358f3db1b7e5a61c2e9bbfc1061d12 *R/mse_saeRB.R
 16b5fa890a3431a70ed72d6ed222e407 *README.md
@@ -12,8 +12,8 @@ aff1758573e05a8cd81fbd6778d44a2d *inst/doc/Vignette_msaeRB.R
 add6c0c0f81db2e5f453307c2b3a6019 *inst/doc/Vignette_msaeRB.Rmd
 bfab369446bf06a9a0fe724d29db83e4 *inst/doc/Vignette_msaeRB.html
 0d724ea0030b8624a7804d5465b14de1 *man/datamsaeRB.Rd
-cbe81206af403bf20e406272b63c575c *man/est_msaeRB.Rd
-cf685a296c40db00db202ef6167f3ab3 *man/est_saeRB.Rd
+949d606839a76952877e04af44266604 *man/est_msaeRB.Rd
+959713b427c7bef7053edaa6479ebd35 *man/est_saeRB.Rd
 502a5f8dd6ba90060101596366cb7d58 *man/figures/README-pressure-1.png
 fcad5160b8115d4abc4197831cdfa376 *man/mse_msaeRB.Rd
 d0fb28d6dc5d05479729ad5306ffceba *man/mse_saeRB.Rd
