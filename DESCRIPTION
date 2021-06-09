@@ -1,7 +1,7 @@
 Package: msaeRB
 Type: Package
 Title: Ratio Benchmarking for Multivariate Small Area Estimation
-Version: 0.1.5
+Version: 0.2.0
 Author: Zenda Oka Briantiko [aut, cre],
     Azka Ubaidillah [aut]
 Maintainer: Zenda Oka Briantiko <221710087@stis.ac.id>
@@ -17,6 +17,6 @@ VignetteBuilder: knitr
 Imports: magic, abind, Matrix, MASS, stats
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2021-05-03 06:41:05 UTC; ASUS
+Packaged: 2021-06-08 20:10:00 UTC; ASUS
 Repository: CRAN
-Date/Publication: 2021-05-03 07:00:02 UTC
+Date/Publication: 2021-06-09 08:00:02 UTC
