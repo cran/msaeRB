@@ -33,7 +33,7 @@
 #' # Compute MSE EBLUP and Ratio Benchmark
 #'
 #' ## Using parameter 'data'
-#' mse_sae = mse_saeRBns(Y1 ~ X1 + X2, v1, w1, data = datamsaeRBns)
+#' mse_sae = mse_saeRBns(Y1 ~ X1 + X2, v1, w1, c1, data = datamsaeRBns)
 #'
 #' ## Without parameter 'data'
 #' mse_sae = mse_saeRBns(datamsaeRBns$Y1 ~ datamsaeRBns$X1 + datamsaeRBns$X2,
@@ -50,7 +50,7 @@ mse_saeRBns = function (formula, vardir, weight, cluster, samevar = FALSE, B = 1
     formula = list(formula)
   r = length(formula)
   if (r > 1)
-    stop("You should use mse_msaeRB() for multivariate")
+    stop("You should use mse_msaeRBns() for multivariate")
   R_function = function(vardir, n, r) {
     if (r == 1) {
       R = diag(vardir)

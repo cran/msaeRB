@@ -58,7 +58,7 @@ vardir = c("v1", "v12", "v13", "v2", "v23", "v3")
 weight = c("w1", "w2", "w3")
 cluster = c("c1", "c2", "c3")
 
-mse_msae = est_msaeRBns(Fo, vardir, weight, cluster, data = datamsaeRBns)
+mse_msae = mse_msaeRBns(Fo, vardir, weight, cluster, data = datamsaeRBns)
 
 ## Without parameter 'data'
 Fo = list(f1 = datamsaeRBns$Y1 ~ datamsaeRBns$X1 + datamsaeRBns$X2,

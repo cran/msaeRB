@@ -51,7 +51,7 @@ data(datamsaeRBns)
 # Compute MSE EBLUP and Ratio Benchmark
 
 ## Using parameter 'data'
-mse_sae = mse_saeRBns(Y1 ~ X1 + X2, v1, w1, data = datamsaeRBns)
+mse_sae = mse_saeRBns(Y1 ~ X1 + X2, v1, w1, c1, data = datamsaeRBns)
 
 ## Without parameter 'data'
 mse_sae = mse_saeRBns(datamsaeRBns$Y1 ~ datamsaeRBns$X1 + datamsaeRBns$X2,

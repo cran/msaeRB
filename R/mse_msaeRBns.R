@@ -40,7 +40,7 @@
 #' weight = c("w1", "w2", "w3")
 #' cluster = c("c1", "c2", "c3")
 #'
-#' mse_msae = est_msaeRBns(Fo, vardir, weight, cluster, data = datamsaeRBns)
+#' mse_msae = mse_msaeRBns(Fo, vardir, weight, cluster, data = datamsaeRBns)
 #'
 #' ## Without parameter 'data'
 #' Fo = list(f1 = datamsaeRBns$Y1 ~ datamsaeRBns$X1 + datamsaeRBns$X2,
@@ -59,7 +59,7 @@ mse_msaeRBns = function (formula, vardir, weight, cluster, samevar = FALSE, B = 
   start_time = Sys.time()
   r = length(formula)
   if (r <= 1)
-    stop("You should use mse_saeRB() for univariate")
+    stop("You should use mse_saeRBns() for univariate")
   R_function = function(vardir, n, r) {
     if (r == 1) {
       R = diag(vardir)

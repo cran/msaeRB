@@ -69,7 +69,7 @@ est_msaeRBns = function (formula, vardir, weight, cluster, samevar = FALSE, MAXI
 {
   r = length(formula)
   if (r <= 1)
-    stop("You should use est_saeRB() for univariate")
+    stop("You should use est_saeRBns() for univariate")
   R_function = function(vardir, n, r) {
     if (r == 1) {
       R = diag(vardir)
